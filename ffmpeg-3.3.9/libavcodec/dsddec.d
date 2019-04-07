@@ -4,11 +4,12 @@ libavcodec/dsddec.o: libavcodec/dsddec.c libavcodec/internal.h \
  libavutil/pixfmt.h libavutil/avconfig.h libavutil/version.h \
  libavutil/macros.h libavcodec/avcodec.h libavutil/samplefmt.h \
  libavutil/avutil.h libavutil/common.h config.h libavutil/intmath.h \
- libavutil/mem.h libavutil/error.h libavutil/internal.h libavutil/timer.h \
- libavutil/log.h libavutil/cpu.h libavutil/dict.h libavutil/pixfmt.h \
- libavutil/libm.h libavutil/mathematics.h libavutil/attributes.h \
+ libavutil/arm/intmath.h libavutil/attributes.h libavutil/mem.h \
+ libavutil/error.h libavutil/internal.h libavutil/timer.h libavutil/log.h \
+ libavutil/arm/timer.h libavutil/cpu.h libavutil/dict.h \
+ libavutil/pixfmt.h libavutil/libm.h libavutil/mathematics.h \
  libavutil/avutil.h libavutil/cpu.h libavutil/dict.h libavutil/frame.h \
  libavutil/buffer.h libavutil/samplefmt.h libavutil/log.h \
  libavutil/rational.h libavcodec/version.h libavutil/version.h \
  libavcodec/mathops.h libavutil/common.h libavutil/reverse.h \
- libavcodec/avcodec.h libavcodec/dsd.h
+ libavcodec/arm/mathops.h libavcodec/avcodec.h libavcodec/dsd.h

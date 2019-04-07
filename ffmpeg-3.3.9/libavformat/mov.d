@@ -3,10 +3,12 @@ libavformat/mov.o: libavformat/mov.c libavutil/attributes.h \
  libavutil/attributes.h libavutil/timer.h libavutil/log.h \
  libavutil/avutil.h libavutil/common.h libavutil/macros.h \
  libavutil/version.h libavutil/avconfig.h libavutil/intmath.h \
- libavutil/mem.h libavutil/error.h libavutil/internal.h \
- libavutil/rational.h libavutil/mathematics.h libavutil/intfloat.h \
- libavutil/pixfmt.h libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
- libavutil/intreadwrite.h libavutil/bswap.h libavutil/intfloat.h \
+ libavutil/arm/intmath.h libavutil/mem.h libavutil/error.h \
+ libavutil/internal.h libavutil/rational.h libavutil/mathematics.h \
+ libavutil/intfloat.h libavutil/pixfmt.h libavutil/arm/timer.h \
+ libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
+ libavutil/intreadwrite.h libavutil/bswap.h libavutil/arm/bswap.h \
+ libavutil/arm/intreadwrite.h libavutil/intfloat.h \
  libavutil/mathematics.h libavutil/time_internal.h libavutil/avassert.h \
  libavutil/avstring.h libavutil/dict.h libavutil/display.h \
  libavutil/opt.h libavutil/samplefmt.h libavutil/aes.h \
@@ -19,7 +21,8 @@ libavformat/mov.o: libavformat/mov.c libavutil/attributes.h \
  libavcodec/version.h libavutil/version.h libavcodec/ac3tab.h \
  libavcodec/flac.h libavcodec/bytestream.h libavutil/common.h \
  libavcodec/get_bits.h libavcodec/mathops.h libavutil/reverse.h \
- libavcodec/vlc.h libavcodec/mpegaudiodecheader.h libavformat/avformat.h \
+ libavcodec/arm/mathops.h libavcodec/vlc.h \
+ libavcodec/mpegaudiodecheader.h libavformat/avformat.h \
  libavcodec/avcodec.h libavformat/avio.h libavformat/version.h \
  libavformat/internal.h libavutil/bprint.h libavutil/avstring.h \
  libavformat/os_support.h libavformat/avio_internal.h libavformat/url.h \

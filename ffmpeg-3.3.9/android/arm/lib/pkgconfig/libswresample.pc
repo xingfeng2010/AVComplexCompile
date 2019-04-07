@@ -1,4 +1,4 @@
-prefix=/Users/lishixing/Desktop/document/learn/multimedialearn/ffmpeg-3.3.9/android/arm
+prefix=/Users/lishixing/Desktop/document/learn/multimedialearn/AVComplexCompile/ffmpeg-3.3.9/android/arm
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include
@@ -6,9 +6,9 @@ includedir=${prefix}/include
 Name: libswresample
 Description: FFmpeg audio resampling library
 Version: 2.7.100
-Requires: 
-Requires.private: libavutil >= 55.58.100
+Requires: libavutil >= 55.58.100
+Requires.private: 
 Conflicts:
-Libs: -L${libdir}  -lswresample 
-Libs.private: -lm
+Libs: -L${libdir}  -lswresample -lm
+Libs.private: 
 Cflags: -I${includedir}
